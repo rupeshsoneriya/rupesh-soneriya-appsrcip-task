@@ -1,0 +1,110 @@
+.product-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 16px 0 16px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    max-width:285px;
+    height: 462px !important;
+    /*max-height: 462px; */
+    margin: 0.5%;
+    position: relative;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+
+  .custom-container.cards .custom-row{
+    margin: 0;
+  }
+  h2.card-title,p.card-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  img.card-img{
+    height: 100vh;
+    max-height: 375px;
+  }
+  .card-body {
+    padding: 2px;
+    position: absolute;
+    bottom: 7px;
+  }
+  .card-body a{
+    font-family: Simplon Norm;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #888792 
+  }
+  a.card-btn.create-account{
+    text-decoration: none ;
+    padding-left: 4px;
+  }
+  .card-title {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .card-text {
+    font-size: 1em;
+    color: #555;
+  }
+  a.card-btn.create-account img:hover{
+    cursor: pointer;
+    
+  }
+  .custom-container.cards{
+    padding: 0;
+    margin: 0 ;
+  }
+  img.like-icon{
+    float: right;
+    margin-top: -63px;
+}
+  @media (max-width: 768px) {
+    img.card-img{
+      padding: 5px 5px 85px 5px;
+    }
+    img.like-icon{
+      margin-top: 0;
+    }
+    .card{
+      height: 277px !important;
+      max-width: 49%;
+    }
+    img.card-img {
+      max-height: 250px;
+    }
+h2.card-title {
+  font-family: Simplon Norm;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  
+}
+p.card-text{
+  width: Fixed (168px)px;
+  height: Hug (45px)px;
+  top: 248px;
+  left: 176px;
+  gap: 4px;
+  opacity: 0px;
+  
+}
+.product-card{
+  padding: 0 16px 0 16px;
+}
+  }

@@ -1,0 +1,369 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ /* 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+  
+} */
+
+ .footer {
+     background-color: #000;
+     padding: 1rem;
+     color: #fff;
+ }
+
+ .footer-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     gap: 2rem;
+ }
+
+ footer h2 {
+     font-size: 24.71px;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+
+ .footer p {
+     margin-bottom: 24px;
+ }
+
+ .newsletter-input {
+     display: flex;
+     gap: 0.5rem;
+     padding-top: 31px;
+ }
+
+ .newsletter-input h {
+     padding-bottom: 20px;
+ }
+
+ .newsletter-input input {
+     padding: 0.5rem;
+     border: none;
+     border-radius: 0.25rem;
+     flex: 1;
+     margin-right: 5px;
+ }
+
+ .mettā.muse ul li a {
+     color: #FFFFFF;
+     font-size: 18px;
+     font-weight: 400;
+     text-decoration: none;
+ }
+
+ p.footer-copyright {
+     padding: 0px !important;
+ }
+
+ .mettā.muse ul li {
+     padding-bottom: 16px;
+     list-style: none;
+
+ }
+
+ .mettā.muse ul,
+ .links ul {
+     padding: 0;
+ }
+
+ .newsletter-input button {
+     padding: 0.5rem 1rem;
+     border: none;
+     background-color: #fff;
+     color: #000;
+     border-radius: 0.25rem;
+     cursor: pointer;
+ }
+
+ .links div {
+     margin-bottom: 1rem;
+ }
+
+ .links ul {
+     list-style: none;
+ }
+
+ .links ul li {
+     margin-bottom: 0.5rem;
+ }
+
+ .links ul li a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: 400;
+     padding-bottom: 16px;
+ }
+
+ .currency p {
+     margin-bottom: 0.5rem;
+     font-family: Simplon Norm;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 14.4px;
+     padding: 15px 0 5px 0;
+ }
+
+ .currency p b,
+ .contact-info b {
+     display: inline-block;
+     height: 10px;
+     width: 10px;
+     border-radius: 50%;
+     margin: 0 5px 0 5px;
+     background: white;
+ }
+
+ .contact-info b {
+     margin-top: 5px;
+ }
+
+ .social-media a img {
+     width: 30px;
+     height: 30px;
+     margin-right: 0.5rem;
+ }
+
+ .payment-icons img {
+     width: 50px;
+     height: auto;
+     margin-right: 0.5rem;
+ }
+
+
+ .newsletter {
+     padding: 35px 35px 35px 0px;
+ }
+
+ .contact-us {
+     /* padding: 30px 35px 0 196px; */
+     max-width: 400px;
+     padding: 20px 0 0 0;
+     margin: auto;
+ }
+
+ .footer {
+     padding-bottom: 10px;
+ }
+
+ .follow-us h2 {
+     padding-bottom: 24px;
+ }
+
+ .social-media {
+     padding-bottom: 55px;
+ }
+
+ p.footer-copyright {
+     text-align: center;
+ }
+
+ p.mobile-text {
+     display: none;
+ }
+
+ .newsletter-input button {
+     background: black;
+     border: 1px solid #FFFFFF;
+     color: #FFFFFF;
+     font-family: Simplon Norm;
+     font-size: 18px;
+     font-weight: 500;
+     text-transform: uppercase;
+ }
+
+ .custom-row.foter-newsletter-contact-us {
+     border-bottom: 1px solid #FFFFFF;
+     padding-bottom: 35px ;
+ }
+
+ h2.contact-us {
+     display: inline-block;
+     padding-left: 0;
+     padding-bottom: 16px;
+ }
+
+ h2.call-us {
+     display: none;
+ }
+
+ footer h2 {
+     padding-bottom: 16px;
+ }
+
+ .mettā.muse.desktop-view,
+ .links.desktop-view {
+     display: inline-block;
+
+ }
+
+ .mettā.muse.mobile-view,
+ .links.mobile-view {
+     display: none;
+ }
+
+ @media (max-width: 768px) {
+     .footer-container {
+         flex-direction: column;
+     }
+
+     h2.call-us {
+         display: block;
+     }
+
+     .currency p {
+         padding: 0;
+     }
+
+     .currency {
+         padding-top: 30px;
+     }
+
+     footer h2 {
+         font-size: 16px;
+         padding-bottom: 10px;
+     }
+
+     h2.contact-us {
+         display: none;
+     }
+
+     .contact-us {
+         max-width: 100%;
+     }
+
+     .payment-icons {
+     
+         display: flex;
+         justify-content: space-around;
+         flex-wrap: wrap;
+         justify-content: center;
+         gap: 10px;
+     }
+
+     .newsletter h2 {
+         text-transform: uppercase;
+     }
+
+     .newsletter-input input,
+     .newsletter-input button {
+         width: 100%;
+     }
+
+     .social-media a img,
+     .payment-icons img {
+         width: 40px;
+     }
+
+     .newsletter-input {
+         padding: 0px;
+     }
+
+     .footer {
+         padding: 0.5rem;
+
+     }
+     .custom-row.lnks-follow-social-media{
+        padding: 35px 0 0 0 ;
+     }
+
+     .newsletter,
+     .contact-us,
+     .custom-row.lnks-follow-social-media {
+         padding-left: 0px;
+         padding-right: 0px;
+     }
+
+     p.desktop-text {
+         display: none;
+     }
+
+     p.mobile-text {
+         display: inline-block;
+     }
+
+     .newsletter-input input {
+         width: 100%;
+         max-width: 60%;
+         height: 47px;
+     }
+
+     .newsletter-input button {
+
+         width: 100%;
+         max-width: 130px;
+         height: 47px;
+     }
+
+     .newsletter {
+         padding: 10px 0 0px 0 10px;
+     }
+
+     .contact-info {
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+     .newsletter,
+     .contact-info {
+         border-bottom: 1px solid #FFFFFF;
+     }
+
+     .contact-info p {
+         font-family: Simplon Norm;
+         font-size: 14px;
+         font-weight: 400;
+     }
+
+     .mettā.muse.desktop-view,
+     .links.desktop-view {
+         display: none;
+     }
+
+     .mettā.muse.mobile-view,
+     .links.mobile-view
+     {
+         display: inline-block;
+         width: 100%;
+         padding: 23px 0 24px 0;
+         border-bottom: 1px solid #FFFFFF;
+     }
+     .follow-us{
+        padding: 23px 0 24px 0;
+     }
+     
+     select.metta-muse {
+         max-width: 100%;
+         width: 100%;
+         border: none;
+         background: black;
+         color: #fff;
+
+         font-size: 16px;
+         font-weight: 700;
+     }
+
+     select:focus-visible {
+         outline: none;
+     }
+     .follow-us h2{
+        padding-bottom: 16px;
+     }
+     .social-media{
+        padding-bottom: 24px;
+     }
+     .product-card{
+        padding: 16px 16px 24px 16px;
+     }
+     .custom-row.lnks-follow-social-media{
+        padding: 0px;
+     }
+ }

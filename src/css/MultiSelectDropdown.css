@@ -1,0 +1,52 @@
+/*  */
+  button.dropdown-button{
+    font-family: Simplon Norm;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    border: none;
+    text-align: left;
+    background: transparent;
+    /* margin-bottom: 20px; */
+    text-transform: uppercase;
+}
+.dropdown-content{
+  display:inline-grid;
+}
+.dropdown-content label.checkbox-container{
+  margin-bottom:20px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  padding-left: 0px;
+  align-items: center;
+}
+
+.checkbox-container span.all{
+  font-size: 18px;
+  font-weight: 500;
+}
+label.checkbox-container.all{
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+}
+.dropdown{
+  display: grid;
+}
+
+
+.custom-checkbox input {
+  margin-right: 15px;
+}
+
+.open-close-Icon{
+  vertical-align: middle;
+  height: 20px;
+  float: right;
+}
+
+.open-close-Icon img{
+  height: 15px;
+  width: 15px;
+}

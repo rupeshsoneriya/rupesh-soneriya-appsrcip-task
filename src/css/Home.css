@@ -1,0 +1,153 @@
+.main-home-header {
+    padding: 24px 0 24px 0;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    background-color: #FFFFFF;
+}
+
+.total-itmes {
+    display: flex;
+    justify-content: start;
+}
+h5.filter {
+    display: none;
+}
+.total-itmes h5.itme ,.total-itmes h5.filter{
+    padding-right: 80px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #252020;
+
+
+}
+
+.filter-button button {
+
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #888792;
+    text-align: right;
+    background: transparent;
+    position: relative;
+}
+
+.filter-button button::after {
+    content: "<";
+    font-size: 30px;
+    left: -35px;
+    top: -10px;
+    position: absolute;
+}
+
+
+.recommended-filter {
+    display: flex;
+    justify-content: end;
+}
+
+select.recommended-option {
+    border: none;
+    margin-right: 10px  ;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #252020;
+}
+select.recommended-option option:hover{
+    cursor: pointer;
+    background-color: #E5E5E5;
+
+}
+select.recommended-option:focus-visible{
+    outline: none;
+}
+
+.custom-checkbox{
+    padding: 24px 0 15px 0;
+    border-bottom: 1px solid #E5E5E5;
+
+}
+.sidebar-menu .custom-checkbox label{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+    color: #252020;
+    padding-left: 15px;
+
+}
+.home-content .custom-row.content{
+    padding-top: 24px;
+}
+.custom-checkbox.customizble{
+    padding-top: 0px;
+}
+
+.custom-checkbox input{ 
+    width: 22px;
+    height: 22px;
+    border: 0.96px solid #4D4D4D;
+}
+@media (max-width: 768px) {
+
+    .customizble{
+        display: none;
+    }
+.recommended-filter {
+    justify-content: center;
+}
+
+h5.filter{
+    display: block;
+}
+.total-itmes{
+    justify-content: center;
+    border-right:  1px solid #E5E5E5;
+}
+.main-home-header{
+    padding: 12px 0 12px 0 ;
+}
+h5.itme{
+    display: none;
+}
+.sidebar-menu{
+    padding: 0 15px 0 15px;
+}
+img.like-icon{
+    content: "<";
+    font-size: 28px;
+    left: -30px;
+    top: -9px;
+    position: absolute;
+}
+.home-shop{
+    display: flex !important;
+}
+}
+
+.home-shop{
+    display: none;
+}
+/* .home-content{
+    padding-top: 32px;
+
+} */
+.sidebar-container{
+    width:100%;
+    max-width: 25%;
+}
+.card-container{
+    width:100%;
+    max-width: 75%;
+}
+
+/* Base styles */
+h2.card-title{
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 700;
+}
